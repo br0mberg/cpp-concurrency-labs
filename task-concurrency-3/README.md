@@ -1,10 +1,10 @@
 # Задание: Асинхронный логгер (AsyncLogger)
 
+Ссылка на шаблон: https://gitlab.akhcheck.ru/task-templates/concurrencytemplate
 ---
-
 Задание выполняйте на ветке `task-concurrency-3` в папке `task-concurrency-3`.
 
-После того, как задание будет выполнено, создайте Merge Request в ветку `main`.
+После того, как задание будет выполнено, создайте Merge Request в ветку `master`.
 
 ---
 
