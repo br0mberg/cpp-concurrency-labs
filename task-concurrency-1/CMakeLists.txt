@@ -9,9 +9,8 @@ find_package(Threads REQUIRED)
 add_executable(livelock livelock.cpp)
 target_link_libraries(livelock Threads::Threads)
 
-# Раскомментируйте после создания соответствующих файлов:
-# add_executable(fix_scoped_lock fix_scoped_lock.cpp)
-# target_link_libraries(fix_scoped_lock Threads::Threads)
+add_executable(fix_scoped_lock fix_scoped_lock.cpp)
+target_link_libraries(fix_scoped_lock Threads::Threads)
 
-# add_executable(fix_backoff fix_backoff.cpp)
-# target_link_libraries(fix_backoff Threads::Threads)
+add_executable(fix_backoff fix_backoff.cpp)
+target_link_libraries(fix_backoff Threads::Threads)
